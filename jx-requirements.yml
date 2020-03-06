@@ -17,40 +17,40 @@ cluster:
   zone: europe-west2
 environments:
 - ingress:
-    domain: ""
-    externalDNS: false
-    namespaceSubDomain: ""
+    domain: "jenkinsx.dev.secure.iproov.me"
+    externalDNS: true
+    namespaceSubDomain: -jx.
     tls:
-      email: ""
-      enabled: false
-      production: false
+      email: "sajjad.rehman@iproov.com"
+      enabled: true
+      production: true
   key: dev
-  repository: environment-jenkinsx-dev-dev
+  repository: environment-jenkinsx-devhelm-dev
 - ingress:
-    domain: ""
-    externalDNS: false
-    namespaceSubDomain: ""
+    domain: "jenkinsx.dev.secure.iproov.me"
+    externalDNS: true
+    namespaceSubDomain: -jx.
     tls:
-      email: ""
-      enabled: false
-      production: false
+      email: "sajjad.rehman@iproov.com"
+      enabled: true
+      production: true
   key: staging
-  repository: environment-jenkinsx-dev-staging
+  repository: environment-jenkinsx-devhelm-staging
 - ingress:
-    domain: ""
-    externalDNS: false
-    namespaceSubDomain: ""
+    domain: "jenkinsx.dev.secure.iproov.me"
+    externalDNS: true
+    namespaceSubDomain: -jx.
     tls:
-      email: ""
-      enabled: false
-      production: false
+      email: "sajajd.rehman@iproov.com"
+      enabled: true
+      production: true
   key: production
   repository: environment-jenkinsx-dev-production
 gitops: true
 helmfile: true
 ingress:
-  domain: ""
-  externalDNS: false
+  domain: "jenkinsx.dev.secure.iproov.me"
+  externalDNS: true
   namespaceSubDomain: -jx.
   tls:
     email: ""
