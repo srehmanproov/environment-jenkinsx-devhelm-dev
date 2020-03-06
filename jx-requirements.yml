@@ -3,7 +3,7 @@ autoUpdate:
   schedule: ""
 bootConfigURL: https://github.com/jenkins-x/jenkins-x-boot-helmfile-config
 cluster:
-  clusterName: jenkinsx-dev
+  clusterName: jxhelm3-dev
   devEnvApprovers:
   - srehmanproov
   environmentGitOwner: iproov
